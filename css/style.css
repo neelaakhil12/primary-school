@@ -102,6 +102,14 @@ h6 {
         display: flex !important;
         visibility: visible !important;
         opacity: 1 !important;
+        position: absolute !important;
+        right: 1rem !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+
+    .navbar-sticky .container {
+        position: relative !important;
     }
 
     /* Force desktop menu to hide on mobile to prevent squishing and pushing hamburger off screen */
