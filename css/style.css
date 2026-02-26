@@ -75,6 +75,51 @@ h6 {
     box-shadow: 0 4px 20px rgba(107, 70, 193, 0.15);
 }
 
+/* =================== Mobile Navbar Fix =================== */
+
+/* Ensure hamburger button is always visible and tappable on mobile */
+#menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    min-width: 44px;
+    min-height: 44px;
+    cursor: pointer;
+    z-index: 100;
+    flex-shrink: 0;
+}
+
+/* Logo responsive sizing */
+.nav-logo {
+    height: 3rem;
+    /* 48px on mobile */
+    width: auto;
+    object-fit: contain;
+}
+
+@media (min-width: 1024px) {
+    .nav-logo {
+        height: 4rem;
+        /* 64px on desktop */
+    }
+
+    #menu-btn {
+        display: none !important;
+    }
+}
+
+/* Offset for pages with a fixed navbar (non-hero pages) */
+.page-offset {
+    padding-top: 72px;
+}
+
+@media (min-width: 1024px) {
+    .page-offset {
+        padding-top: 80px;
+    }
+}
+
 /* =================== Buttons =================== */
 
 .btn-primary {
