@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Disney Oaks Primary School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar-sticky bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center">
+                    <img src="assets/images/logo.jpeg" alt="Disney Oaks Logo" class="h-20 w-auto">
+                </a>
+            </div>
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="index.html" class="text-dark-blue font-semibold hover:text-primary-custom">Home</a>
+                <a href="about.html" class="text-dark-blue font-semibold hover:text-primary-custom">About Us</a>
+                <a href="programs.html" class="text-dark-blue font-semibold hover:text-primary-custom">Programs</a>
+                <a href="admissions.html" class="text-primary-custom font-semibold">Admissions</a>
+                <a href="gallery.html" class="text-dark-blue font-semibold hover:text-primary-custom">Gallery</a>
+                <a href="careers.html" class="text-dark-blue font-semibold hover:text-primary-custom">Careers</a>
+                <a href="contact.html" class="text-dark-blue font-semibold hover:text-primary-custom">Contact Us</a>
+                <a href="admissions.html" class="btn-primary">Apply Now</a>
+            </div>
+            <button id="menu-btn" class="lg:hidden text-dark-blue focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu"
+        class="fixed inset-0 bg-white z-[2000] flex flex-col items-center justify-center space-y-8 hidden">
+        <button id="close-menu" class="absolute top-6 right-6 text-dark-blue">
+            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+        <a href="index.html" class="text-2xl font-bold text-dark-blue">Home</a>
+        <a href="about.html" class="text-2xl font-bold text-dark-blue">About Us</a>
+        <a href="programs.html" class="text-2xl font-bold text-dark-blue">Programs</a>
+        <a href="admissions.html" class="text-2xl font-bold text-primary-custom">Admissions</a>
+        <a href="gallery.html" class="text-2xl font-bold text-dark-blue">Gallery</a>
+        <a href="careers.html" class="text-2xl font-bold text-dark-blue">Careers</a>
+        <a href="contact.html" class="text-2xl font-bold text-dark-blue">Contact Us</a>
+        <a href="admissions.html" class="btn-primary text-xl">Apply Now</a>
+    </div>
+
+    <!-- Inner Hero -->
+    <section class="pt-32 pb-20 bg-purple-50">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-down">
+            <h1 class="text-4xl md:text-5xl font-bold text-dark-blue mb-4">Admissions 2026-27</h1>
+            <p class="text-xl text-gray-custom max-w-3xl mx-auto">Join the Disney Oaks family. We follow a transparent
+                and parent-friendly admission process.</p>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="section-padding">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-dark-blue mb-4">Our Admission Process</h2>
+                <p class="text-gray-custom">Simplified 4-step process for a smooth enrollment journey.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+                <!-- Step 1 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="w-16 h-16 bg-primary-custom text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold relative z-10 shadow-lg">
+                        1</div>
+                    <h4 class="text-xl font-bold mb-2">Application</h4>
+                    <p class="text-gray-custom text-sm">Submit the online enquiry form or visit the school campus to
+                        collect the application form.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div
+                        class="w-16 h-16 bg-primary-custom text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold relative z-10 shadow-lg">
+                        2</div>
+                    <h4 class="text-xl font-bold mb-2">Interaction</h4>
+                    <p class="text-gray-custom text-sm">Parents and students are invited for an informal interaction
+                        with our team.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="w-16 h-16 bg-primary-custom text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold relative z-10 shadow-lg">
+                        3</div>
+                    <h4 class="text-xl font-bold mb-2">Verification</h4>
+                    <p class="text-gray-custom text-sm">Submission of required documents for verification and review.
+                    </p>
+                </div>
+                <!-- Step 4 -->
+                <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                        class="w-16 h-16 bg-primary-custom text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold relative z-10 shadow-lg">
+                        4</div>
+                    <h4 class="text-xl font-bold mb-2">Confirmation</h4>
+                    <p class="text-gray-custom text-sm">Payment of fees to secure the seat and complete the enrollment
+                        process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="section-padding bg-purple-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <!-- Eligibility -->
+                <div class="lg:w-1/2 bg-white p-10 rounded-3xl shadow-sm" data-aos="fade-right">
+                    <h3 class="text-2xl font-bold text-dark-blue mb-6">Eligibility Criteria</h3>
+                    <ul class="space-y-4 text-gray-custom">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-custom mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>Grade 1: Child must be 6+ years as of 31st March.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-custom mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>Grade 2-5: Based on previous school performance.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-custom mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>Admission subject to seat availability.</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Documents -->
+                <div class="lg:w-1/2 bg-white p-10 rounded-3xl shadow-sm" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold text-dark-blue mb-6">Documents Required</h3>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-custom">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-primary-custom mr-3 mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>Birth Certificate (Original & Copy)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-primary-custom mr-3 mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>Previous Year Report Card</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-primary-custom mr-3 mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>Transfer Certificate (TC)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-primary-custom mr-3 mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>4 Passport Size Photographs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-primary-custom mr-3 mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>Address Proof (Aadhar/Voter ID)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form -->
+    <section class="section-padding bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl font-bold text-dark-blue mb-4">Admission Enquiry</h2>
+                    <p class="text-gray-custom">Fill out the form below and our admissions counsellor will contact you.
+                    </p>
+                </div>
+                <form id="contact-form" class="bg-purple-50 p-10 rounded-3xl shadow-sm border border-blue-100"
+                    data-aos="fade-up">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-dark-blue font-bold mb-2">Child's Name</label>
+                            <input type="text" placeholder="Full Name"
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-custom"
+                                required>
+                        </div>
+                        <div>
+                            <label class="block text-dark-blue font-bold mb-2">Grade Applying For</label>
+                            <select
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-custom">
+                                <option>Grade 1</option>
+                                <option>Grade 2</option>
+                                <option>Grade 3</option>
+                                <option>Grade 4</option>
+                                <option>Grade 5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-dark-blue font-bold mb-2">Parent's Name</label>
+                            <input type="text" placeholder="Full Name"
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-custom"
+                                required>
+                        </div>
+                        <div>
+                            <label class="block text-dark-blue font-bold mb-2">Phone Number</label>
+                            <input type="tel" placeholder="Mobile Number"
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-custom"
+                                required>
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-dark-blue font-bold mb-2">Email Address</label>
+                        <input type="email" placeholder="example@email.com"
+                            class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-custom"
+                            required>
+                    </div>
+                    <div class="mb-8">
+                        <label class="block text-dark-blue font-bold mb-2">Additional Message</label>
+                        <textarea rows="4" placeholder="Any specific requirements or questions?"
+                            class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-custom"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn-primary w-full md:w-auto px-12 text-lg">Submit Enquiry</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-16 pb-8 border-t border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <img src="assets/images/logo.jpeg" alt="Disney Oaks Logo" class="h-24 w-auto mb-6">
+                    <p class="text-gray-custom mb-6">Building strong foundations for primary education through
+                        excellence and care.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-dark-blue mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="index.html" class="text-gray-custom hover:text-primary-custom">Home</a></li>
+                        <li><a href="about.html" class="text-gray-custom hover:text-primary-custom">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-custom hover:text-primary-custom">Programs</a></li>
+                        <li><a href="gallery.html" class="text-gray-custom hover:text-primary-custom">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-dark-blue mb-6">Support</h4>
+                    <ul class="space-y-4">
+                        <li><a href="careers.html" class="text-gray-custom hover:text-primary-custom">Careers</a></li>
+                        <li><a href="contact.html" class="text-gray-custom hover:text-primary-custom">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-dark-blue mb-6">Admission Office</h4>
+                    <ul class="space-y-4 text-gray-custom">
+                        <li>123 School Lane, City 56789</li>
+                        <li>+1 234 567 890</li>
+                        <li>admissions@disneyoaks.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-100 text-center text-sm text-gray-custom">
+                <p>&copy; 2026 Disney Oaks Primary School. All Rights Reserved.</p>
+                <p class="mt-4">Developed by Codtech IT Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

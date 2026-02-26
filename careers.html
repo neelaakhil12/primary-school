@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Disney Oaks Primary School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar-sticky bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center">
+                    <img src="assets/images/logo.jpeg" alt="Disney Oaks Logo" class="h-20 w-auto">
+                </a>
+            </div>
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="index.html" class="text-dark-blue font-semibold hover:text-primary-custom">Home</a>
+                <a href="about.html" class="text-dark-blue font-semibold hover:text-primary-custom">About Us</a>
+                <a href="programs.html" class="text-dark-blue font-semibold hover:text-primary-custom">Programs</a>
+                <a href="admissions.html" class="text-dark-blue font-semibold hover:text-primary-custom">Admissions</a>
+                <a href="gallery.html" class="text-dark-blue font-semibold hover:text-primary-custom">Gallery</a>
+                <a href="careers.html" class="text-primary-custom font-semibold">Careers</a>
+                <a href="contact.html" class="text-dark-blue font-semibold hover:text-primary-custom">Contact Us</a>
+                <a href="admissions.html" class="btn-primary">Apply Now</a>
+            </div>
+            <button id="menu-btn" class="lg:hidden text-dark-blue focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="fixed inset-0 bg-white z-[2000] flex flex-col items-center justify-center space-y-8 hidden">
+        <button id="close-menu" class="absolute top-6 right-6 text-dark-blue">
+            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+        <a href="index.html" class="text-2xl font-bold text-dark-blue">Home</a>
+        <a href="about.html" class="text-2xl font-bold text-dark-blue">About Us</a>
+        <a href="programs.html" class="text-2xl font-bold text-dark-blue">Programs</a>
+        <a href="admissions.html" class="text-2xl font-bold text-dark-blue">Admissions</a>
+        <a href="gallery.html" class="text-2xl font-bold text-dark-blue">Gallery</a>
+        <a href="careers.html" class="text-2xl font-bold text-primary-custom">Careers</a>
+        <a href="contact.html" class="text-2xl font-bold text-dark-blue">Contact Us</a>
+        <a href="admissions.html" class="btn-primary text-xl">Apply Now</a>
+    </div>
+
+    <!-- Inner Hero -->
+    <section class="pt-32 pb-20 bg-purple-50">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-down">
+            <h1 class="text-4xl md:text-5xl font-bold text-dark-blue mb-4">Join Our Team</h1>
+            <p class="text-xl text-gray-custom max-w-3xl mx-auto">Shape the future of young learners by joining our
+                dedicated academic and administrative team.</p>
+        </div>
+    </section>
+
+    <!-- Career Intro -->
+    <section class="section-padding">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2" data-aos="fade-right">
+                    <h2 class="text-3xl font-bold text-dark-blue mb-6">Why Work With Us?</h2>
+                    <p class="text-gray-custom text-lg mb-6 leading-relaxed">
+                        At Disney Oaks Primary School, we believe that our teachers and staff are our greatest assets.
+                        We provide a supportive, collaborative, and professional environment where you can grow and make
+                        a real difference in children's lives.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-primary-custom mr-3 font-bold text-xl">✓</span>
+                            <span class="text-gray-custom">Professional Development Opportunities</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-primary-custom mr-3 font-bold text-xl">✓</span>
+                            <span class="text-gray-custom">Inclusive and Inspiring Work Culture</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-primary-custom mr-3 font-bold text-xl">✓</span>
+                            <span class="text-gray-custom">Modern Teaching Tools and Infrastructure</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-primary-custom mr-3 font-bold text-xl">✓</span>
+                            <span class="text-gray-custom">A Focus on Work-Life Balance</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <img src="assets/images/hero.png" alt="Teachers with students"
+                        class="rounded-3xl shadow-2xl skew-x-1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Openings -->
+    <section class="section-padding bg-purple-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-dark-blue mb-4">Current Openings</h2>
+                <div class="w-24 h-1 bg-primary-custom mx-auto mb-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Role 1 -->
+                <div class="info-card p-10 bg-white" data-aos="flip-left">
+                    <h3 class="text-xl font-bold text-dark-blue mb-2">Primary Teachers</h3>
+                    <p class="text-primary-custom font-semibold mb-4 text-sm">Full-Time | Grades 1-5</p>
+                    <p class="text-gray-custom text-sm mb-6 leading-relaxed">
+                        We are looking for creative and enthusiastic primary teachers for all subjects. Minimum 2 years
+                        of experience required.
+                    </p>
+                    <a href="mailto:careers@disneyoaks.edu" class="text-primary-custom font-bold hover:underline">Apply
+                        Now &rarr;</a>
+                </div>
+                <!-- Role 2 -->
+                <div class="info-card p-10 bg-white" data-aos="flip-left" data-aos-delay="100">
+                    <h3 class="text-xl font-bold text-dark-blue mb-2">Subject Specialists</h3>
+                    <p class="text-primary-custom font-semibold mb-4 text-sm">Part-Time / Full-Time</p>
+                    <p class="text-gray-custom text-sm mb-6 leading-relaxed">
+                        Opening for Art, Music, Sports (Physical Ed), and Computer Education specialists. Passion for
+                        child development is key.
+                    </p>
+                    <a href="mailto:careers@disneyoaks.edu" class="text-primary-custom font-bold hover:underline">Apply
+                        Now &rarr;</a>
+                </div>
+                <!-- Role 3 -->
+                <div class="info-card p-10 bg-white" data-aos="flip-left" data-aos-delay="200">
+                    <h3 class="text-xl font-bold text-dark-blue mb-2">Administrative Staff</h3>
+                    <p class="text-primary-custom font-semibold mb-4 text-sm">Full-Time</p>
+                    <p class="text-gray-custom text-sm mb-6 leading-relaxed">
+                        Seeking experienced Office Assistants and Receptionists with excellent communication and
+                        organizational skills.
+                    </p>
+                    <a href="mailto:careers@disneyoaks.edu" class="text-primary-custom font-bold hover:underline">Apply
+                        Now &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Apply -->
+    <section class="section-padding">
+        <div class="container mx-auto px-6 text-center" data-aos="zoom-in">
+            <h2 class="text-3xl font-bold text-dark-blue mb-6">How to Apply</h2>
+            <p class="text-lg text-gray-custom max-w-2xl mx-auto mb-10 leading-relaxed">
+                If you are passionate about education and meet the requirements, please send your updated resume along
+                with a cover letter to our recruitment team.
+            </p>
+            <div class="bg-primary-custom text-white p-12 rounded-3xl inline-block shadow-2xl">
+                <p class="text-xl font-semibold mb-4">Send your resume to:</p>
+                <a href="mailto:careers@disneyoaks.edu"
+                    class="text-3xl md:text-4xl font-bold hover:text-purple-100 transition-colors">careers@disneyoaks.edu</a>
+                <p class="mt-4 opacity-80">Subject line: Position Applied For - Your Name</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-16 pb-8 border-t border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <img src="assets/images/logo.jpeg" alt="Disney Oaks Logo" class="h-24 w-auto mb-6">
+                    <p class="text-gray-custom mb-6">Dedicated to providing a nurturing and excellence-driven
+                        educational environment.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-dark-blue mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="index.html" class="text-gray-custom hover:text-primary-custom">Home</a></li>
+                        <li><a href="about.html" class="text-gray-custom hover:text-primary-custom">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-custom hover:text-primary-custom">Programs</a></li>
+                        <li><a href="careers.html" class="text-gray-custom hover:text-primary-custom">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-dark-blue mb-6">Contact</h4>
+                    <ul class="space-y-4 text-gray-custom text-sm">
+                        <li>123 School Lane, City 56789</li>
+                        <li>+1 234 567 890</li>
+                        <li>info@disneyoaks.edu</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-dark-blue mb-6">Social</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-primary-custom">FB</a>
+                        <a href="#" class="text-primary-custom">IG</a>
+                        <a href="#" class="text-primary-custom">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-100 text-center text-sm text-gray-custom">
+                <p>&copy; 2026 Disney Oaks Primary School. Developed by Codtech IT Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
