@@ -96,6 +96,11 @@ h6 {
         visibility: visible !important;
         opacity: 1 !important;
     }
+
+    /* Force desktop menu to hide on mobile to prevent squishing and pushing hamburger off screen */
+    .desktop-nav {
+        display: none !important;
+    }
 }
 
 /* Logo responsive sizing */
