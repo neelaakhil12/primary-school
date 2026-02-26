@@ -223,15 +223,20 @@ h6 {
 /* =================== Mobile Menu =================== */
 
 #mobile-menu {
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transform-origin: top;
 }
 
 #mobile-menu.hidden {
-    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
 }
 
 #mobile-menu.active {
-    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }
 
 /* =================== Gallery Filter =================== */
