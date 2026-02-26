@@ -92,16 +92,21 @@ h6 {
 
 /* Logo responsive sizing */
 .nav-logo {
-    height: 3rem;
+    height: auto;
+    max-height: 3rem;
     /* 48px on mobile */
+    max-width: 65vw;
+    /* Prevent wide logos from pushing the menu button off-screen */
     width: auto;
     object-fit: contain;
 }
 
 @media (min-width: 1024px) {
     .nav-logo {
-        height: 4rem;
+        height: auto;
+        max-height: 4rem;
         /* 64px on desktop */
+        max-width: 100%;
     }
 
     #menu-btn {
