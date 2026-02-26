@@ -90,6 +90,14 @@ h6 {
     flex-shrink: 0;
 }
 
+@media (max-width: 1023px) {
+    #menu-btn.mobile-visible {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+}
+
 /* Logo responsive sizing */
 .nav-logo {
     height: auto;
