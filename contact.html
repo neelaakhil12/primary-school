@@ -169,11 +169,23 @@
                                 <button type="submit" class="btn-primary w-full text-lg py-5">Send Message
                                     Now</button>
                             </div>
-                        </form>
+                            <script>
+                                document.getElementById('contact-form').addEventListener('submit', function (e) {
+                                    e.preventDefault();
+                                    const name = this.querySelector('input[type="text"]').value;
+                                    const phone = this.querySelector('input[type="tel"]').value;
+                                    const email = this.querySelector('input[type="email"]').value;
+                                    const message = this.querySelector('textarea').value;
+
+                                    const whatsappMessage = `Hello, I have an enquiry for The Basics Primary School:%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Message:* ${message}`;
+                                    const whatsappUrl = `https://wa.me/918019560506?text=${whatsappMessage}`;
+
+                                    window.open(whatsappUrl, '_blank');
+                                });
+                            </script>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Map Section -->
