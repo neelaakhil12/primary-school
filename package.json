@@ -1,7 +1,7 @@
 {
-  "name": "basic-primary-school",
+  "name": "the-basics-primary-school",
   "version": "1.0.0",
-  "description": "Disney Oaks Primary School Website",
+  "description": "The Basics Primary School Website",
   "main": "index.html",
   "scripts": {
     "dev": "browser-sync start --config bs-config.js"
